@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.env
+.pytest_cache/
+.ruff_cache/
+data/raw_snapshots/*
+!data/raw_snapshots/.gitkeep
