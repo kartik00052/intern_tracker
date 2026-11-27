@@ -1,0 +1,28 @@
+const crawledHoursAgo = (hours) => new Date(Date.now() - hours * 60 * 60 * 1000).toISOString();
+
+export const companies = [
+  { id: 'C-001', name: 'Figma', domain: 'figma.com', careers_url: 'https://www.figma.com/careers/', ats: 'generic', open_roles: 6, last_crawled_at: crawledHoursAgo(2) },
+  { id: 'C-002', name: 'Stripe', domain: 'stripe.com', careers_url: 'https://stripe.com/jobs', ats: 'greenhouse', open_roles: 9, last_crawled_at: crawledHoursAgo(5) },
+  { id: 'C-003', name: 'Notion', domain: 'notion.so', careers_url: 'https://www.notion.so/careers', ats: 'ashby', open_roles: 7, last_crawled_at: crawledHoursAgo(8) },
+  { id: 'C-004', name: 'Razorpay', domain: 'razorpay.com', careers_url: 'https://razorpay.com/careers/', ats: 'greenhouse', open_roles: 5, last_crawled_at: crawledHoursAgo(11) },
+  { id: 'C-005', name: 'Postman', domain: 'postman.com', careers_url: 'https://www.postman.com/careers/', ats: 'lever', open_roles: 4, last_crawled_at: crawledHoursAgo(14) },
+  { id: 'C-006', name: 'Innovaccer', domain: 'innovaccer.com', careers_url: 'https://innovaccer.com/careers/', ats: 'smartrecruiters', open_roles: 8, last_crawled_at: crawledHoursAgo(17) },
+  { id: 'C-007', name: 'Adobe', domain: 'adobe.com', careers_url: 'https://careers.adobe.com/', ats: 'generic', open_roles: 11, last_crawled_at: crawledHoursAgo(20) },
+  { id: 'C-008', name: 'Barclays', domain: 'barclays.com', careers_url: 'https://www.barclays.co.uk/careers/', ats: 'smartrecruiters', open_roles: 10, last_crawled_at: crawledHoursAgo(23) },
+  { id: 'C-009', name: 'Atlassian', domain: 'atlassian.com', careers_url: 'https://www.atlassian.com/company/careers', ats: 'generic', open_roles: 7, last_crawled_at: crawledHoursAgo(26) },
+  { id: 'C-010', name: 'Zoho', domain: 'zoho.com', careers_url: 'https://www.zoho.com/careers.html', ats: 'generic', open_roles: 6, last_crawled_at: crawledHoursAgo(29) },
+  { id: 'C-011', name: 'Airtable', domain: 'airtable.com', careers_url: 'https://airtable.com/careers', ats: 'ashby', open_roles: 5, last_crawled_at: crawledHoursAgo(32) },
+  { id: 'C-012', name: 'Linear', domain: 'linear.app', careers_url: 'https://linear.app/careers', ats: 'ashby', open_roles: 3, last_crawled_at: crawledHoursAgo(35) },
+  { id: 'C-013', name: 'Vercel', domain: 'vercel.com', careers_url: 'https://vercel.com/careers', ats: 'ashby', open_roles: 4, last_crawled_at: crawledHoursAgo(38) },
+  { id: 'C-014', name: 'GitHub', domain: 'github.com', careers_url: 'https://github.com/about/careers', ats: 'generic', open_roles: 8, last_crawled_at: crawledHoursAgo(41) },
+  { id: 'C-015', name: 'Shopify', domain: 'shopify.com', careers_url: 'https://www.shopify.com/careers', ats: 'generic', open_roles: 9, last_crawled_at: crawledHoursAgo(44) },
+  { id: 'C-016', name: 'Databricks', domain: 'databricks.com', careers_url: 'https://www.databricks.com/company/careers', ats: 'greenhouse', open_roles: 10, last_crawled_at: crawledHoursAgo(47) },
+  { id: 'C-017', name: 'Flipkart', domain: 'flipkart.com', careers_url: 'https://www.flipkart.com/careers', ats: 'smartrecruiters', open_roles: 7, last_crawled_at: crawledHoursAgo(50) },
+  { id: 'C-018', name: 'Swiggy', domain: 'swiggy.com', careers_url: 'https://www.swiggy.com/careers', ats: 'greenhouse', open_roles: 6, last_crawled_at: crawledHoursAgo(53) },
+  { id: 'C-019', name: 'Zomato', domain: 'zomato.com', careers_url: 'https://www.zomato.com/careers', ats: 'generic', open_roles: 5, last_crawled_at: crawledHoursAgo(56) },
+  { id: 'C-020', name: 'Meesho', domain: 'meesho.com', careers_url: 'https://www.meesho.com/careers', ats: 'ashby', open_roles: 4, last_crawled_at: crawledHoursAgo(59) },
+  { id: 'C-021', name: 'CRED', domain: 'cred.club', careers_url: 'https://cred.club/careers', ats: 'lever', open_roles: 3, last_crawled_at: crawledHoursAgo(62) },
+  { id: 'C-022', name: 'Groww', domain: 'groww.in', careers_url: 'https://groww.in/careers', ats: 'smartrecruiters', open_roles: 6, last_crawled_at: crawledHoursAgo(65) },
+  { id: 'C-023', name: 'BrowserStack', domain: 'browserstack.com', careers_url: 'https://www.browserstack.com/careers', ats: 'greenhouse', open_roles: 5, last_crawled_at: crawledHoursAgo(68) },
+  { id: 'C-024', name: 'Freshworks', domain: 'freshworks.com', careers_url: 'https://www.freshworks.com/company/careers/', ats: 'greenhouse', open_roles: 7, last_crawled_at: crawledHoursAgo(71) },
+];
